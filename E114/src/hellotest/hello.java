@@ -1,5 +1,5 @@
 package hellotest;
 
 public class hello {
-	//dfsdf
 }
+// 이클립스로 성공!!
