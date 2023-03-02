@@ -11,3 +11,8 @@ public class hello {
 
 //박채연 연결 성공
 //test
+//졸려
+//hi
+//잔디잔디잔디 
+
+/// merge 겹치면
