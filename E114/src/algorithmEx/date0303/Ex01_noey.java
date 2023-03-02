@@ -1,4 +1,4 @@
-package E114.src.algorithmEx.date0303;
+package algorithmEx.date0303;
 
 public class Ex01_noey {
 	
