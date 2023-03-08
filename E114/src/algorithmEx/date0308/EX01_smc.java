@@ -8,6 +8,8 @@ public class EX01_smc {
 	        int n1 =0; //계수
 	        int n2 =0; //상수
 	        
+	        
+	        //자르기
 	        for(String s : arr) {
 	            if(s.equals("x")) {  // x값을 가질때
 	                n1 += 1; // 1더하기
@@ -18,6 +20,7 @@ public class EX01_smc {
 	            }
 	        }
 	        
+	        // 리턴
 	        if(n1 !=0 && n2 ==0){
 	            if(n1 == 1) {
 	                answer = "x";
