@@ -21,7 +21,7 @@ public class EX01_smc {
 	        }
 	        
 	        // 리턴
-	        if(n1 !=0 && n2 ==0){
+	        if(n1 !=0 && n2 ==0){ // 상수가 0
 	            if(n1 == 1) {
 	                answer = "x";
 	            }else {
@@ -29,7 +29,7 @@ public class EX01_smc {
 	            }
 	        }
 
-	        if(n1 !=0 && n2 !=0){
+	        if(n1 !=0 && n2 !=0){ // 둘다 있음
 	            if(n1 == 1) {
 	                answer = "x" + " + " + n2;
 	            }else {
@@ -37,7 +37,7 @@ public class EX01_smc {
 	            }
 	        }
 	        
-	        if(n1==0 && n2 !=0){
+	        if(n1==0 && n2 !=0){ //계수 없고 상수만 있을때
 	            answer = String.valueOf(n2); // String 으로 변환
 	        }
 	        
